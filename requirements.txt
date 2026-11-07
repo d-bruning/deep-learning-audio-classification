@@ -1,14 +1,17 @@
 tensorflow==2.16.2
 tensorflow-metal==1.2.0
 
-keras==3.11.3
+keras==3.0.6
 
-numpy
-pandas
-scikit-learn
+numpy==1.26.4
+pandas==3.0.6
+scikit-learn==1.9.1
 
 matplotlib
 seaborn
+
+librosa==1.0.0
+soundfile==0.14.0
 
 pillow
 
@@ -17,3 +20,7 @@ notebook
 ipykernel
 
 openpyxl
+
+jinja2==3.1.6
+
+wandb==0.28.0
