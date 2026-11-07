@@ -1,49 +1,136 @@
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RESULTS_DIR = PROJECT_ROOT / "results"
-DATA_DIR = PROJECT_ROOT / "data"
-AUDIO_DIR = DATA_DIR / "audio_files"
-SPECTROGRAM_DIR = DATA_DIR / "spectrograms"
-ANALYTICS_DIR = PROJECT_ROOT / "analytics"
-SPLIT_FILE = (
+
+# ==================================================
+# Project Root
+# ==================================================
+
+PROJECT_ROOT = (
+    Path(__file__)
+    .resolve()
+    .parents[3]
+)
+
+
+# ==================================================
+# Data Directories
+# ==================================================
+
+DATA_DIR = (
     PROJECT_ROOT /
     "data" /
-    "metadata" /
+    "gtzan"
+)
+
+AUDIO_DIR = (
+    DATA_DIR /
+    "audio_files"
+)
+
+METADATA_DIR = (
+    DATA_DIR /
+    "metadata"
+)
+
+SPECTROGRAM_DIR = (
+    DATA_DIR /
+    "spectrograms"
+)
+
+
+# ==================================================
+# GTZAN Dataset Paths
+# ==================================================
+
+GTZAN_AUDIO_DIR = (
+    AUDIO_DIR /
+    "source"
+)
+
+GTZAN_SPECTROGRAM_DIR = (
+    SPECTROGRAM_DIR
+)
+
+GTZAN_SPLIT_FILE = (
+    METADATA_DIR /
     "song_splits.csv"
 )
-FMA_INVENTORY_FILE = (
+
+
+# ==================================================
+# Source Code Locations
+# ==================================================
+
+MODELS_DIR = (
     PROJECT_ROOT /
-    "data" /
-    "metadata" /
-    "fma_small_inventory.csv"
+    "src" /
+    "gtzan" /
+    "models"
 )
-FMA_SPLIT_FILE = (
+
+PROCESSING_DIR = (
     PROJECT_ROOT /
-    "data" /
-    "metadata" /
-    "fma_song_splits.csv"
+    "src" /
+    "gtzan" /
+    "processing"
 )
 
-def get_output_paths(model_name):
 
-    root = RESULTS_DIR / model_name
+# ==================================================
+# Results
+# ==================================================
 
-    paths = {
-        "root": root,
-        "checkpoints": root / "checkpoints",
-        "confusion_matrices": root / "confusion_matrices",
-        "duration_results": root / "duration_results",
-        "genre_results": root / "genre_results",
-        "histories": root / "histories",
-        "models": root / "models",
-        "metadata": root / "metadata"
-    }
+RESULTS_DIR = (
+    PROJECT_ROOT /
+    "results" /
+    "gtzan"
+)
 
-    for p in paths.values():
-        p.mkdir(
-            parents=True,
-            exist_ok=True
-        )
 
-    return paths
+# ==================================================
+# Analytics
+# ==================================================
+
+ANALYTICS_DIR = (
+    PROJECT_ROOT /
+    "analytics" /
+    "gtzan"
+)
+
+
+# ==================================================
+# WandB
+# ==================================================
+
+WANDB_DIR = (
+    PROJECT_ROOT /
+    "wandb"
+)
+
+
+# ==================================================
+# Output Path Factory
+# ==================================================
+
+def get_output_paths(
+    model_name
+):
+    """
+    Creates and returns:
+
+    results/gtzan/<model_name>/*
+
+    Returns:
+        {
+            "root",
+            "checkpoints",
+            "confusion_matrices",
+            "duration_results",
+            "genre_results",
+            "histories",
+            "models",
+            "metadata"
+        }
+    """
+
+    

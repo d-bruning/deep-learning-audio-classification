@@ -63,6 +63,23 @@ FMA_SPLIT_FILE = (
     "fma_song_splits.csv"
 )
 
+# ==================================================
+# Source Code Locations
+# ==================================================
+
+MODELS_DIR = (
+    PROJECT_ROOT /
+    "src" /
+    "fma_small" /
+    "models"
+)
+
+PROCESSING_DIR = (
+    PROJECT_ROOT /
+    "src" /
+    "fma_small" /
+    "processing"
+)
 
 # ==================================================
 # Results

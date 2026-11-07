@@ -17,7 +17,7 @@ Research Goal:
 # Experiment Selection
 # ==================================================
 
-RUN_MODE = "full"
+RUN_MODE = "test"
 
 MODEL_NAME = "vit"
 
