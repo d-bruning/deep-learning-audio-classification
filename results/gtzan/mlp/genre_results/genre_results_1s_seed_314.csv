@@ -1,0 +1,11 @@
+model,seed,duration,genre,precision,recall,f1
+mlp,314,1s,blues,0.0,0.0,0.0
+mlp,314,1s,classical,0.1,1.0,0.18181818181818182
+mlp,314,1s,country,0.0,0.0,0.0
+mlp,314,1s,disco,0.0,0.0,0.0
+mlp,314,1s,hiphop,0.0,0.0,0.0
+mlp,314,1s,jazz,0.0,0.0,0.0
+mlp,314,1s,metal,0.0,0.0,0.0
+mlp,314,1s,pop,0.0,0.0,0.0
+mlp,314,1s,reggae,0.0,0.0,0.0
+mlp,314,1s,rock,0.0,0.0,0.0

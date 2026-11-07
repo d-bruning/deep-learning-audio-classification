@@ -1,0 +1,2 @@
+run_name,model,seed,duration,model_category,pretrained,parameter_count,learning_rate,epochs_completed,best_epoch,training_seconds,best_val_accuracy,best_val_loss,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_top2_accuracy,test_top3_accuracy,test_kappa
+cnn_20s_s999,cnn,999,20s,scratch_cnn,False,129224,0.001,18,13,240.59625506401062,0.451585978269577,1.518495798110962,0.44073455759599334,0.4408668903803132,0.553576010004089,0.4408668903803132,0.43816847507297585,0.674457429048414,0.7971619365609349,0.36089471236838255

@@ -1,0 +1,2 @@
+model,model_category,pretrained,parameter_count,input_height,input_width,channels,num_classes,learning_rate
+vit,vision_transformer,True,1420680,224,224,3,8,0.0001

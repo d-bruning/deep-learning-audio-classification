@@ -1,0 +1,11 @@
+model,seed,duration,genre,precision,recall,f1
+mlp,2024,15s,blues,0.0,0.0,0.0
+mlp,2024,15s,classical,0.0,0.0,0.0
+mlp,2024,15s,country,0.0,0.0,0.0
+mlp,2024,15s,disco,0.0,0.0,0.0
+mlp,2024,15s,hiphop,0.0,0.0,0.0
+mlp,2024,15s,jazz,0.0,0.0,0.0
+mlp,2024,15s,metal,0.0,0.0,0.0
+mlp,2024,15s,pop,0.0,0.0,0.0
+mlp,2024,15s,reggae,0.0,0.0,0.0
+mlp,2024,15s,rock,0.12612612612612611,0.9333333333333333,0.2222222222222222

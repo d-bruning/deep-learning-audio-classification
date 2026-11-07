@@ -1,0 +1,2 @@
+run_name,model,seed,duration,model_category,pretrained,parameter_count,learning_rate,epochs_completed,best_epoch,training_seconds,best_val_accuracy,best_val_loss,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_top2_accuracy,test_top3_accuracy,test_kappa
+mobilenetv2_1s_s2024,mobilenetv2,2024,1s,pretrained_cnn,True,2587976,0.0001,28,23,321.3236622810364,0.4728940725326538,1.4898929595947266,0.4682804674457429,0.46841722595078294,0.4621392112055399,0.46841722595078294,0.45875240226612185,0.657762938230384,0.7829716193656093,0.3923531955113224

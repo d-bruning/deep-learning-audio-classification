@@ -1,0 +1,2 @@
+run_name,model,seed,duration,model_category,pretrained,parameter_count,learning_rate,epochs_completed,best_epoch,training_seconds,best_val_accuracy,best_val_loss,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_top2_accuracy,test_top3_accuracy,test_kappa
+vit_15s_s314,vit,314,15s,vision_transformer,True,1420680,0.0001,18,13,941.5279579162598,0.4065108597278595,1.6602667570114136,0.3964941569282137,0.39668903803131994,0.3731684211901346,0.39668903803131994,0.37464572505403393,0.5868113522537562,0.7195325542570952,0.31031171393695023

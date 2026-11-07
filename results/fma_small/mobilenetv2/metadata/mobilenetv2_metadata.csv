@@ -1,0 +1,2 @@
+model,model_category,pretrained,parameter_count,input_height,input_width,channels,num_classes,learning_rate
+mobilenetv2,pretrained_cnn,True,2587976,224,224,3,8,0.0001

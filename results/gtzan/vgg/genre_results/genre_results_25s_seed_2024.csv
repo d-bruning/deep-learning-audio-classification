@@ -1,0 +1,11 @@
+model,seed,duration,genre,precision,recall,f1
+vgg,2024,25s,blues,0.0,0.0,0.0
+vgg,2024,25s,classical,0.0,0.0,0.0
+vgg,2024,25s,country,0.0,0.0,0.0
+vgg,2024,25s,disco,0.0,0.0,0.0
+vgg,2024,25s,hiphop,0.12631578947368421,0.8,0.21818181818181817
+vgg,2024,25s,jazz,0.0,0.0,0.0
+vgg,2024,25s,metal,0.2777777777777778,1.0,0.43478260869565216
+vgg,2024,25s,pop,0.0,0.0,0.0
+vgg,2024,25s,reggae,0.0,0.0,0.0
+vgg,2024,25s,rock,0.0,0.0,0.0

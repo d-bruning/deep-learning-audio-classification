@@ -1,0 +1,2 @@
+model,model_category,pretrained,parameter_count,input_height,input_width,channels,num_classes,learning_rate
+crnn,temporal_model,False,345096,128,128,3,8,0.0001

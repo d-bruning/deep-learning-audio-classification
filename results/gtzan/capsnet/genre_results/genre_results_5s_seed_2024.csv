@@ -1,0 +1,11 @@
+model,seed,duration,genre,precision,recall,f1
+capsnet,2024,5s,blues,0.14,0.4666666666666667,0.2153846153846154
+capsnet,2024,5s,classical,0.0,0.0,0.0
+capsnet,2024,5s,country,0.0,0.0,0.0
+capsnet,2024,5s,disco,0.06741573033707865,0.4,0.11538461538461539
+capsnet,2024,5s,hiphop,0.0,0.0,0.0
+capsnet,2024,5s,jazz,0.0,0.0,0.0
+capsnet,2024,5s,metal,0.0,0.0,0.0
+capsnet,2024,5s,pop,0.0,0.0,0.0
+capsnet,2024,5s,reggae,0.0,0.0,0.0
+capsnet,2024,5s,rock,0.0,0.0,0.0
