@@ -1,0 +1,78 @@
+_wandb:
+    value:
+        cli_version: 0.31.0
+        e:
+            01a16af5-621d-75e7-a9d7-64df4f234438:
+                codePath: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small/data-collection.ipynb
+                codePathLocal: data-collection.ipynb
+                email: daniel.bruning@du.edu
+                executable: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/.venv/bin/python
+                git:
+                    commit: ab0690a7d0247554759e8ddb6b8fe9bacc8aa7e4
+                    remote: https://github.com/d-bruning/deep-learning-audio-classification-analysis.git
+                host: IT-FYT2LVVX6J
+                os: macOS-26.5.2-arm64-arm-64bit
+                program: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small/data-collection.ipynb
+                python: CPython 3.12.15
+                root: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small
+                startedAt: "2026-10-23T22:50:28.761329Z"
+                writerId: 01a16af5-621d-75e7-a9d7-64df4f234438
+        m: []
+        python_version: 3.12.15
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.15
+            "5": 0.31.0
+            "8":
+                - 1
+            "12": 0.31.0
+            "13": darwin-arm64
+batch_size:
+    value: 32
+dataset:
+    value: fma_small
+duration:
+    value: 15s
+epochs:
+    value: 30
+image_size:
+    value:
+        - 128
+        - 128
+learning_rate:
+    value: 0.001
+model:
+    value: cnn
+model_category:
+    value: scratch_cnn
+num_classes:
+    value: 8
+parameter_count:
+    value: 129224
+pretrained:
+    value: false
+run_timestamp:
+    value: 2026-10-23T16:50:28.218182
+seed:
+    value: 42
+study:
+    value: fma_small_v2
+test_samples:
+    value: 1198
+train_samples:
+    value: 5598
+val_samples:
+    value: 1198

@@ -1,0 +1,41 @@
+{
+  "os":  "macOS-26.5.2-arm64-arm-64bit",
+  "python":  "CPython 3.12.15",
+  "startedAt":  "2026-10-24T05:35:53.969615Z",
+  "program":  "/Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small/data-collection.ipynb",
+  "codePath":  "/Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small/data-collection.ipynb",
+  "codePathLocal":  "data-collection.ipynb",
+  "git":  {
+    "remote":  "https://github.com/d-bruning/deep-learning-audio-classification-analysis.git",
+    "commit":  "ab0690a7d0247554759e8ddb6b8fe9bacc8aa7e4"
+  },
+  "email":  "daniel.bruning@du.edu",
+  "root":  "/Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small",
+  "host":  "IT-FYT2LVVX6J",
+  "executable":  "/Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/.venv/bin/python",
+  "cpu_count":  18,
+  "cpu_count_logical":  18,
+  "disk":  {
+    "/":  {
+      "total":  "994610155520",
+      "used":  "166916939776"
+    }
+  },
+  "memory":  {
+    "total":  "25769803776"
+  },
+  "cpu":  {
+    "model":  "Apple M5 Pro"
+  },
+  "apple":  {
+    "name":  "Apple M5 Pro",
+    "ecpuCores":  12,
+    "pcpuCores":  6,
+    "gpuCores":  20,
+    "memoryGb":  24,
+    "swapTotalBytes":  "2147483648",
+    "ramTotalBytes":  "25769803776",
+    "macModel":  "Mac17,8"
+  },
+  "writerId":  "01a16c68-8e74-7505-bb56-81526fde08c9"
+}

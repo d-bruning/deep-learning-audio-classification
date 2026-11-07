@@ -1,0 +1,140 @@
+_wandb:
+    value:
+        cli_version: 0.31.0
+        e:
+            01a16bce-0d3a-7294-9308-1141e8b16935:
+                apple:
+                    ecpuCores: 12
+                    gpuCores: 20
+                    macModel: Mac17,8
+                    memoryGb: 24
+                    name: Apple M5 Pro
+                    pcpuCores: 6
+                    ramTotalBytes: "25769803776"
+                    swapTotalBytes: "2147483648"
+                codePath: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small/data-collection.ipynb
+                codePathLocal: data-collection.ipynb
+                cpu:
+                    model: Apple M5 Pro
+                cpu_count: 18
+                cpu_count_logical: 18
+                disk:
+                    /:
+                        total: "994610155520"
+                        used: "166542868480"
+                email: daniel.bruning@du.edu
+                executable: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/.venv/bin/python
+                git:
+                    commit: ab0690a7d0247554759e8ddb6b8fe9bacc8aa7e4
+                    remote: https://github.com/d-bruning/deep-learning-audio-classification-analysis.git
+                host: IT-FYT2LVVX6J
+                memory:
+                    total: "25769803776"
+                os: macOS-26.5.2-arm64-arm-64bit
+                program: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small/data-collection.ipynb
+                python: CPython 3.12.15
+                root: /Users/daniel.bruning/Documents/Courses/Deep Learning/audio-classification/src/fma_small
+                startedAt: "2026-10-24T02:47:08.343437Z"
+                writerId: 01a16bce-0d3a-7294-9308-1141e8b16935
+        m:
+            - "1": epoch/epoch
+              "6":
+                - 3
+              "7": []
+            - "2": epoch/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.12.15
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 7
+                - 13
+                - 16
+                - 38
+                - 78
+            "4": 3.12.15
+            "5": 0.31.0
+            "8":
+                - 1
+            "12": 0.31.0
+            "13": darwin-arm64
+        visualize:
+            confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+batch_size:
+    value: 32
+dataset:
+    value: fma_small
+duration:
+    value: 3s
+epochs:
+    value: 30
+image_size:
+    value:
+        - 128
+        - 128
+learning_rate:
+    value: 0.001
+model:
+    value: cnn
+model_category:
+    value: scratch_cnn
+num_classes:
+    value: 8
+parameter_count:
+    value: 129224
+pretrained:
+    value: false
+run_timestamp:
+    value: 2026-10-23T20:47:07.680738
+seed:
+    value: 2024
+study:
+    value: fma_small_v2
+test_samples:
+    value: 1198
+train_samples:
+    value: 5598
+val_samples:
+    value: 1198
