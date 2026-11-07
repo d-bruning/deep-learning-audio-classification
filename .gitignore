@@ -219,6 +219,41 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Experimental artifacts
+# ==================================================
+# Experiment specific ingores
+# ==================================================
+
+
+# Experimental Artifacts
 *.keras
+*.h5
 *.npy
+
+# Generated plots
+*.png
+
+# Generated HTML exports
+*.html
+
+# Audio Data
+data/fma_small/metadata/fma_tracks.csv
+*.wav
+*.mp3
+
+# WandB
+wandb/
+**/wandb/
+
+# Model Artifacts
+results/**/checkpoints/
+results/**/models/
+
+# Notebook Artifacts
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+.venv_transformers/
+
+# macOS BS
+.DS_Store
