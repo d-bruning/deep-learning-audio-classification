@@ -223,6 +223,8 @@ __marimo__/
 # Experiment specific ingores
 # ==================================================
 
+# Dataset Artifacts
+data/fma_small/metadata/fma_tracks.csv
 
 # Experimental Artifacts
 *.keras
@@ -236,7 +238,6 @@ __marimo__/
 *.html
 
 # Audio Data
-data/fma_small/metadata/fma_tracks.csv
 *.wav
 *.mp3
 
