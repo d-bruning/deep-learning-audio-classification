@@ -22,6 +22,45 @@ src/fma_small/
 Results:
 results/fma_small/
 
+### Dataset Acknowledgments
+
+### Free Music Archive (FMA) Dataset
+
+This project utilizes the Free Music Archive (FMA) dataset developed by
+Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst, and Xavier
+Bresson. The FMA dataset was created specifically to support research in
+music information retrieval and music analysis. The FMA Small subset
+contains 8,000 tracks distributed across 8 balanced genre categories.
+
+The dataset is hosted by the Swiss Data Science Center (EPFL and ETHZ).
+Metadata are distributed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0), while individual audio recordings are
+distributed under licenses selected by their respective artists.
+
+Source Dataset:
+https://github.com/mdeff/fma
+
+Citation:
+
+Defferrard, M., Benzi, K., Vandergheynst, P., & Bresson, X. (2017).
+FMA: A Dataset for Music Analysis. Proceedings of the 18th International
+Society for Music Information Retrieval Conference (ISMIR).
+
+https://arxiv.org/abs/1612.01840
+
+## GTZAN
+This project uses the GTZAN Music Genre Dataset, originally developed by
+George Tzanetakis and Perry Cook (2002). The dataset contains 1,000
+30-second audio excerpts spanning 10 musical genres and remains one of
+the most widely used benchmarks for music genre recognition research.
+
+Source Dataset:
+https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
+
+Citation:
+Tzanetakis, G., & Cook, P. (2002). Musical genre classification of audio
+signals. IEEE Transactions on Speech and Audio Processing, 10(5), 293–302.
+
 
 ## GTZAN Results
 ### Duration Effects

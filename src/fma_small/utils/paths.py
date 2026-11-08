@@ -18,7 +18,8 @@ PROJECT_ROOT = (
 
 DATA_DIR = (
     PROJECT_ROOT /
-    "data"
+    "data" /
+    "fma_small"
 )
 
 AUDIO_DIR = (
